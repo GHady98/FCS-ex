@@ -21,4 +21,14 @@ if num % 2 == 0:
     print("The number is even.")
 else:
     print("The number is odd.")
+    
+
+username = input("Enter username: ")
+password = input("Enter password: ")
+
+
+if username == "admin" and password == "1234":
+    print("Access granted")
+else:
+    print("Access denied")
 
